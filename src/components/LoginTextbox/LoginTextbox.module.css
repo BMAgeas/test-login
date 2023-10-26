@@ -1,0 +1,12 @@
+.RightAlignedLink {
+    float:           right;
+}
+
+.TextboxHelpLink {
+    color:           var(--ageas-purple);
+    font-weight:     700;
+}
+
+.TextAlignLeft {
+    text-align:      left;
+}

@@ -1,0 +1,25 @@
+.FooterSolidColourBox {
+    background-color:   #646464FF;
+    text-align:         center;
+    color:              #FFFFFFFF;
+    padding-left:       8em;
+    padding-right:      8em;
+    padding-top:        2em;
+    padding-bottom:     2em;
+}
+
+.FooterLinksContainer {
+    
+}
+
+.FooterLink {
+    font-weight:        700;
+    padding-left:       1em;
+    padding-right:      1em;
+    text-decoration:    none;
+    color:              #FFFFFFFF;
+}
+
+.PaymentLogosImage {
+    float: right;
+}

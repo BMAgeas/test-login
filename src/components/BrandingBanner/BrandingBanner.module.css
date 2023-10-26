@@ -1,0 +1,13 @@
+.BrandingBannerOuter {
+    max-width:          100%;
+    min-width:          100%;
+    display:            flex;
+    margin:             auto;
+    height:             10%;
+    background-color: rgb(23, 23, 20);
+}
+
+.AgeasTextLogo {
+                        /* Top, right, bottom, left */
+    margin:             10px 20px 2px 110px;
+}

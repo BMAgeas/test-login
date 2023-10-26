@@ -1,0 +1,27 @@
+.OuterBox {
+    padding:        0.1em;
+    margin-left:    6em;
+    margin-right:   6em;
+}
+
+.PaddedCardBody {
+    padding-top:    2em;
+    padding-left:   5em;
+    padding-right:  5em;
+    padding-bottom: 5em;
+}
+
+.LoginBoxTopTitleBar {
+    background-color:   #8F409CFF;
+    color:              #FFFFFFFF;
+    font-weight:        900;
+    font-size:          1.5em;
+    text-align:         center;
+    margin:             0%;
+}
+
+.LoginBoxTopText {
+    text-align:     center;
+    font-size:      medium;
+    font-weight:    700;
+}
