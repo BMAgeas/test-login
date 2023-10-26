@@ -27,7 +27,7 @@ const LoginBox = () => {
 
                 <div className="my-4"><strong>Please note:</strong> If you bought an Ageas policy from another company, such as a broker, please contact them.</div>
                 <div className="my-4"><strong>Don’t have an online account yet?</strong><br/> It's easy to create one here</div>
-                <button id="RegisterButton" className="btn btn-primary clicky-button" onClick={(e) => {console.log("Register Clicked");}}>Register</button>
+                <button id="RegisterButton" className="btn btn-primary clicky-button" onClick={(e) => {console.log("#RegisterButton Clicked");}}>Register</button>
                 
             </div>
 
