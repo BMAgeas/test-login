@@ -38,7 +38,7 @@ const LoginBox = () => {
 export default LoginBox;
 
 /*
-    --- Use StikyNot ---
+    --- Use StikyNot! ---
 
     To do:
         DONE: Make it look like the AGEAS LOGIN PAGE
@@ -56,5 +56,5 @@ export default LoginBox;
         HeaderBanner - Make dynamic; pass the img as a prop
         Make a component for the Button
 
-        --- Use StikyNot ---
+        --- Use StikyNot! ---
 */
