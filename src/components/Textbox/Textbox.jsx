@@ -1,6 +1,6 @@
-import styles from "./LoginTextbox.module.css";
+import styles from "./Textbox.module.css";
 
-const LoginTextbox = ( {FieldName, PlaceholderText = "", HelpLinkText = ""} ) => {
+const Textbox = ( {FieldName, PlaceholderText = "", HelpLinkText = ""} ) => {
     return (
         <div className="mb-3">
             <p className={styles.TextAlignLeft}>
@@ -17,4 +17,4 @@ const LoginTextbox = ( {FieldName, PlaceholderText = "", HelpLinkText = ""} ) =>
     );
 };
 
-export default LoginTextbox;
+export default Textbox;

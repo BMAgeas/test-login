@@ -1,6 +1,6 @@
 "use client";
 
-import LoginTextbox from "../LoginTextbox/LoginTextbox";
+import Textbox from "../Textbox/Textbox";
 import styles       from "./LoginBox.module.css";
 
 const LogCredentialsToConsole = (e) => {
@@ -21,8 +21,8 @@ const LoginBox = () => {
             
                 <h5 className={`${styles.LoginBoxTopText} card-subtitle my-2 pb-3`}>Welcome to your Ageas Online Account - where you can manage your policy, keep everything up to date and view your policy documents.</h5>
                 
-                <LoginTextbox FieldName="Email address" PlaceholderText="example@hotmail.co.uk" HelpLinkText="Check if my email is registered" />
-                <LoginTextbox FieldName="Password" HelpLinkText="Forgot Password" />
+                <Textbox FieldName="Email address" PlaceholderText="example@hotmail.co.uk" HelpLinkText="Check if my email is registered" />
+                <Textbox FieldName="Password" HelpLinkText="Forgot Password" />
                 <button id="LoginButton" className="btn btn-primary clicky-button mt-2 mb-2" onClick={LogCredentialsToConsole}>Log in</button>
 
                 <div className="my-4"><strong>Please note:</strong> If you bought an Ageas policy from another company, such as a broker, please contact them.</div>
@@ -38,6 +38,8 @@ const LoginBox = () => {
 export default LoginBox;
 
 /*
+    --- Use StikyNot ---
+
     To do:
         DONE: Make it look like the AGEAS LOGIN PAGE
         DONE: console.log() the credentials out
@@ -45,6 +47,14 @@ export default LoginBox;
         DONE: Forgot password link
         DONE: Header and Footer as re-usable components
 
-        Upload to GitHub; send to M.
+        DONE: Upload to GitHub; send to M.
         Read about client vs server components.
+        Learn about CSS media queries - Make it work well on mobile!
+        GIT merges and Pull Requests - YouTube video
+        Read about CSS grid and FlexBox
+
+        HeaderBanner - Make dynamic; pass the img as a prop
+        Make a component for the Button
+
+        --- Use StikyNot ---
 */
