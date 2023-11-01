@@ -1,11 +1,11 @@
-import styles from "./Textbox.module.css";
+import styles from "./AGTextbox.module.css";
 
-const Textbox = ( {FieldName, PlaceholderText = "", HelpLinkText = ""} ) => {
+const AGTextbox = ({ FieldName, PlaceholderText = "", HelpLinkText = "", HelpLinkOnClickFunction = null }) => {
     return (
         <div className="mb-3">
             <p className={styles.TextAlignLeft}>
                 <b>{FieldName}</b>
-                <span className={styles.RightAlignedLink}><a href="#" className={styles.TextboxHelpLink}>{HelpLinkText}</a></span>
+                <span className={styles.RightAlignedLink}><a onClick={HelpLinkOnClickFunction} className={styles.TextboxHelpLink}>{HelpLinkText}</a></span>
             </p>
             <input
                 type={ FieldName.toUpperCase().includes("PASS") ? "password" : "text" }
@@ -17,4 +17,4 @@ const Textbox = ( {FieldName, PlaceholderText = "", HelpLinkText = ""} ) => {
     );
 };
 
-export default Textbox;
+export default AGTextbox;

@@ -1,14 +1,38 @@
+/* Widescreen */
 .OuterBox {
     padding:        0.1em;
     margin-left:    6em;
     margin-right:   6em;
+    max-width:      750px;
 }
 
+/* Vertical (Mobile) */
+@media only screen and (max-width: 600px) {
+    .OuterBox {
+        padding:        0.1em;
+        margin-left:    0.1em;
+        margin-right:   0.1em;
+        width:          175%;
+    }
+}
+
+/* Widescreen */
 .PaddedCardBody {
     padding-top:    2em;
     padding-left:   5em;
     padding-right:  5em;
     padding-bottom: 5em;
+}
+
+/* Vertical (Mobile) */
+@media only screen and (max-width: 600px) {
+    .PaddedCardBody {
+        padding-top:    1em;
+        padding-left:   1em;
+        padding-right:  1em;
+        padding-bottom: 1em;
+        font-size:      small;
+    }
 }
 
 .LoginBoxTopTitleBar {

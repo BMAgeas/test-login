@@ -1,10 +1,10 @@
 import Image    from "next/image";
-import styles   from "./AgeasFooterBox.module.css";
+import styles   from "./AGFooter.module.css";
 
-const AgeasFooterBox = () => {
+const AGFooter = () => {
     return (
         <div className={styles.FooterSolidColourBox}>
-            <div id="FooterLinks" className={`${styles.FooterLinksContainer} mb-4`}>
+            <div id="FooterLinks" className={`mb-4`}>
                 <a href="#" className={styles.FooterLink}>Privacy Policy</a>
                 |
                 <a href="#" className={styles.FooterLink}>Policy Documents</a>
@@ -17,4 +17,4 @@ const AgeasFooterBox = () => {
     );
 };
 
-export default AgeasFooterBox;
+export default AGFooter;

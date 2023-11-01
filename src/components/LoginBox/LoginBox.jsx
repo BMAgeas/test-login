@@ -1,7 +1,9 @@
 "use client";
 
-import Textbox from "../Textbox/Textbox";
-import styles       from "./LoginBox.module.css";
+import AGTextbox            from "../AGTextbox/AGTextbox";
+import AGButton             from "../AGButton/AGButton";
+import AGShowModalButton    from "../AGShowModalButton/AGShowModalButton";
+import styles               from "./LoginBox.module.css";
 
 const LogCredentialsToConsole = (e) => {
     console.table(
@@ -21,13 +23,13 @@ const LoginBox = () => {
             
                 <h5 className={`${styles.LoginBoxTopText} card-subtitle my-2 pb-3`}>Welcome to your Ageas Online Account - where you can manage your policy, keep everything up to date and view your policy documents.</h5>
                 
-                <Textbox FieldName="Email address" PlaceholderText="example@hotmail.co.uk" HelpLinkText="Check if my email is registered" />
-                <Textbox FieldName="Password" HelpLinkText="Forgot Password" />
-                <button id="LoginButton" className="btn btn-primary clicky-button mt-2 mb-2" onClick={LogCredentialsToConsole}>Log in</button>
+                <AGTextbox FieldName="Email address" PlaceholderText="example@hotmail.co.uk" HelpLinkText="Check if my email is registered" />
+                <AGTextbox FieldName="Password" HelpLinkText="Forgot Password"  />
+                <AGButton ButtonText="Log in" OnClickFunction={LogCredentialsToConsole} />
 
                 <div className="my-4"><strong>Please note:</strong> If you bought an Ageas policy from another company, such as a broker, please contact them.</div>
-                <div className="my-4"><strong>Don’t have an online account yet?</strong><br/> It's easy to create one here</div>
-                <button id="RegisterButton" className="btn btn-primary clicky-button" onClick={(e) => {console.log("#RegisterButton Clicked");}}>Register</button>
+                <div className="my-4"><strong>Don’t have an online account yet?</strong><br/>It's easy to create one here</div>
+                <AGShowModalButton ButtonText="Register" TargetModalID="ForgotPasswordModal" />
                 
             </div>
 
@@ -36,25 +38,3 @@ const LoginBox = () => {
 };
 
 export default LoginBox;
-
-/*
-    --- Use StikyNot! ---
-
-    To do:
-        DONE: Make it look like the AGEAS LOGIN PAGE
-        DONE: console.log() the credentials out
-        DONE: Watermark placeholders in Textboxes
-        DONE: Forgot password link
-        DONE: Header and Footer as re-usable components
-
-        DONE: Upload to GitHub; send to M.
-        Read about client vs server components.
-        Learn about CSS media queries - Make it work well on mobile!
-        GIT merges and Pull Requests - YouTube video
-        Read about CSS grid and FlexBox
-
-        HeaderBanner - Make dynamic; pass the img as a prop
-        Make a component for the Button
-
-        --- Use StikyNot! ---
-*/

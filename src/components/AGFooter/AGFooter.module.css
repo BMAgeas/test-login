@@ -2,14 +2,15 @@
     background-color:   #646464FF;
     text-align:         center;
     color:              #FFFFFFFF;
-    padding-left:       8em;
-    padding-right:      8em;
+    padding-left:       10%;
+    padding-right:      10%;
     padding-top:        2em;
     padding-bottom:     2em;
 }
 
-.FooterLinksContainer {
-    
+/* Adjust the font-size depending on the screen-width */
+@media only screen and (max-width: 600px) {
+    .FooterSolidColourBox { font-size: small; }
 }
 
 .FooterLink {
@@ -21,5 +22,9 @@
 }
 
 .PaymentLogosImage {
-    float: right;
+    float:             right;
+    margin-left:       1%;
+    margin-right:      1%;
+    margin-top:        1%;
+    margin-bottom:     1%;
 }
