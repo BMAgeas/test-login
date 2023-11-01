@@ -16,9 +16,26 @@ input[type=text], input[type=password] {
   border: 1px solid rgb(179, 179, 179);
 }
 
+.PageHeadingText {
+	text-align:		center;
+	font-weight:	800;
+	padding-top:	1.8em;
+	padding-bottom:	1.0em;
+}
+
+@media only screen and (max-width: 600px) {
+	.PageHeadingText { font-size: 1.5rem; }
+}
+
+.PageSubHeadingText { text-align: center; }
+
+@media only screen and (max-width: 600px) {
+	.PageSubHeadingText { font-size: 0.8rem; }
+}
+
 :root {
 
-  --ageas-purple: #8F409CFF;
+  --ageas-purple:			#8F409CFF;
 
   --max-width: 1100px;
   --border-radius: 12px;
@@ -107,7 +124,7 @@ body {
   overflow-x: hidden;
 }
 
-body {
+/* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -115,7 +132,7 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
 
 a {
   color: inherit;

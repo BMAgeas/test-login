@@ -1,0 +1,55 @@
+.StormAdviceItem {
+
+	/* ↓ Alignment ↓ */
+	width:				20%;
+	box-sizing:			border-box;
+	text-align:			center;
+	display:			block;
+
+	/* ↓ Border ↓ */
+	border-style:		solid;
+	border-color:		rgb(224, 224, 224);
+	border-width:		2px;
+	border-radius:		5px;
+	box-shadow:			0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	/* ↓ Spacing ↓ */
+	padding-top:		1em;
+	padding-left:		1em;
+	padding-right:		1em;
+	padding-bottom:		1em;
+	margin-left:		1.5em;
+	margin-right:		1.5em;
+	margin-top:			0.5em;
+	margin-bottom:		0.5em;
+
+	/* ↓ Content ↓ */
+	background-color:	rgb(245, 243, 243);
+	font-size:			0.8rem;
+
+}
+
+.StormAdviceImage {
+	border-radius:		3px;
+	box-shadow:			0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+	margin-bottom:		0.6em;
+}
+
+/* ↓ Vertical (Mobile) ↓ */
+@media only screen and (max-width: 600px) {
+
+	.StormAdviceItem {
+
+		/* ↓ Alignment ↓ */
+		width:				45%;
+		padding:			0.5em;
+		margin:				0.5em;
+
+		/* ↓ Content ↓ */
+		font-size:			0.7rem;
+
+	}
+
+	.AdviceItemHeading { font-size: 0.8rem; margin-bottom: 0.2em; }
+
+}
