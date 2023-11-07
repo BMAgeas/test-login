@@ -23,6 +23,10 @@ input[type=text], input[type=password] {
 	padding-bottom:	1.0em;
 }
 
+.SlightlyBolder {
+	font-weight: 600;
+}
+
 @media only screen and (max-width: 600px) {
 	.PageHeadingText { font-size: 1.5rem; }
 }

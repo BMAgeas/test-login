@@ -1,7 +1,7 @@
 import Image    from "next/image";
 import styles   from "./AGHeader.module.css";
 
-const AGHeader = ({ LogoImageURL }) => {
+const AGHeader = ({ LogoImageURL = "/AgeasTextLogo.svg" }) => {
     return (
         <figure className={styles.BrandingBannerOuter}>
             <a href="">
