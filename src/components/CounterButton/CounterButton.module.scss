@@ -1,3 +1,10 @@
+//@import "./../../node_modules/bootstrap/scss/bootstrap";
+
 .CounterButton {
+
+	//@extend .btn;
+	//','.btn-primary','.clicky-button'
+
 	min-width: fit-content;
+
 }

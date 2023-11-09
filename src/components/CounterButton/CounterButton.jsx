@@ -1,3 +1,5 @@
+"use client";
+
 import {useState}	from "react";
 import styles		from "./CounterButton.module.scss";
 
@@ -15,8 +17,9 @@ const CounterButton = () => {
 	}
 
     return (
-        <button onClick={UpdateClickCount} className={`${styles.CounterButton} btn btn-primary clicky-button my-2 px-4`}>Clicked {clickCount.toString()} time{(clickCount > 1) && "s"}</button>
+        <button onClick={UpdateClickCount} className={`${styles.CounterButton} my-2 px-4`}>Clicked {clickCount.toString()} time{(clickCount != 1) && "s"}</button>
     );
+
 };
 
 export default CounterButton;
