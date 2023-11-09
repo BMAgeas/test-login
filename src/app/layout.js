@@ -3,6 +3,7 @@ import Script from "next/script";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "./globals.css";
+import "./globals.scss";
 
 export default function RootLayout({ children }) {
 	return (

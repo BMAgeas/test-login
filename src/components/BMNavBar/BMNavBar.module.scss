@@ -1,3 +1,5 @@
+@import "./../../app/globals.scss";
+
 .NavTag {
 	
 	background-color:				rgb(235, 235, 235);
@@ -6,5 +8,7 @@
 	box-shadow:						0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 
 	margin-bottom:					2%;
+
+	// @include mi-blue-border;
 
 }

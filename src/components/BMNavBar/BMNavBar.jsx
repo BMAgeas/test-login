@@ -1,5 +1,6 @@
-import Image from "next/image";
-import styles from "./BMNavBar.module.css";
+import Image		from "next/image";
+import styles		from "./BMNavBar.module.scss";
+import cssVariables	from "../../app/variables.module.scss";
 
 const BMNavBar = () => {
 	return (
@@ -10,6 +11,7 @@ const BMNavBar = () => {
 					Ageas <span className="SlightlyBolder">Store</span>
 				</a>
 				<form className="d-flex" role="search">
+					{/* <input type="search" className="form-control me-2" placeholder="Search..." style={{ backgroundColor : cssVariables.AgeasGray }} /> */}
 					<input type="search" className="form-control me-2" placeholder="Search..." />
 					<button className="btn btn-outline-success">Go</button>
 				</form>
