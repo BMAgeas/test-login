@@ -1,5 +1,8 @@
+//@import "../../app/globals.css";
+
 .CounterButton {
 
+	@extend .clicky-button !optional;
 	min-width: fit-content;
 
 }
