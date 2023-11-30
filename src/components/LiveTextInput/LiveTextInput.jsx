@@ -10,7 +10,7 @@ const LiveTextInput = ({ InitialText }) => {
 	/* ↓ Executed on every re-render of the component (whenever a key is pressed) */
 	useEffect(
 		function () {
-			document.title = Text.length.toString();
+			document.title = (Text).length.toString();
 		}
 	);
 

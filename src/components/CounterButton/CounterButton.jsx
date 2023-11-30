@@ -10,6 +10,7 @@ const CounterButton = () => {
 		setClickCount	→ A function for updating the state
 		0				→ The initial value
 	*/
+	
 	const [clickCount, setClickCount] = useState(0);
 
 	function UpdateClickCount() {

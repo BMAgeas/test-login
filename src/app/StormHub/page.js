@@ -12,7 +12,7 @@ const StormHub = () => {
 	return (
 		<>
 			<header><AGHeader LogoImageURL="/AgeasTextLogo.svg" /></header>
-			<main className={`${styles.main}`}>
+			<main className={styles.main}>
 
 				<h1 className="PageHeadingText">PROTECTING YOUR HOME FROM A STORM</h1>
 				<h5 className="PageSubHeadingText">With the increase in stormy weather in the UK, we're here to help you protect your home and offer support if your home is affected.</h5>
