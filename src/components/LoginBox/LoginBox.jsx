@@ -1,5 +1,6 @@
 "use client";
 
+import {redirect}			from "next/navigation";
 import AGTextbox            from "../AGTextbox/AGTextbox";
 import AGButton             from "../AGButton/AGButton";
 import AGShowModalButton    from "../AGShowModalButton/AGShowModalButton";
@@ -12,6 +13,7 @@ const LogCredentialsToConsole = (e) => {
             "Password"      : document.querySelector("#Password").value
         }
     );
+	window.location.href = "/StormHub";
 };
 
 const LoginBox = () => {
